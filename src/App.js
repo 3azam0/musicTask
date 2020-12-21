@@ -12,11 +12,11 @@ import {default as mapping} from './theme/custom-mapping.json';
 
 // hash this in release
 //global __DEV__
-
+/*
 if (__DEV__) {
   import('./services/reactotronConfig').then(() => {});
 }
-
+*/
 const theme = {...eva.light, ...appTheme};
 
 const App = () => (
